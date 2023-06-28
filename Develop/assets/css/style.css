@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*The following blocks style the header class and its child elements.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,15 +42,18 @@ body {
     margin-left: 25px;
 }
 
+/*Styles the links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Styles the paragraph text */
 p {
     font-size: 16px;
 }
 
+/* This block defines the class that contains the background image at the top of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +63,7 @@ p {
     background-position: center;
 }
 
+/*Helper classes that apply repeatedly used properties to various elements */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +74,14 @@ p {
     margin-left: 25px;
 }
 
+/* Styles the content chunk */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* styles the benefits chunk */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +93,7 @@ p {
     background-color: #2589bd;
 }
 
+/* The blocks below style the various child sections that occur under the main benefits section */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -134,6 +142,7 @@ p {
     max-width: 150px;
 }
 
+/*Style the blocks found in the Content chunk*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +170,7 @@ p {
     color: #ffffff;
 }
 
+/*Style the content images */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,6 +198,7 @@ p {
     font-size: 36px;
 }
 
+/* Style the footer */
 .footer {
     padding: 30px;
     clear: both;
